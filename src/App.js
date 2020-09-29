@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import MyNavbar from "./components/myNavBar/mynavbar.component";
+import MyCarousal from "./components/myCarousal/mycarousal.component";
+import TitleMessage from "./components/TitleMessage/titlemessage.components";
+import About from "./pages/about/about.component";
+import Container from "react-bootstrap/Container";
+import TimeLine from "./components/project-timeline/projects-timeline.component";
+import Skills from "./pages/skills/skills.component";
+import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 
-function App() {
+import ContactForm from "./components/contact-form/contact-form.component"
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ position: "relative" }}>
+      <MyNavbar />
+      <MyCarousal />
+      <TitleMessage />
+      <About />
+      <div>
+        <Container className="container-box rounded">
+          <Skills />
+        </Container>
+
+        <Container className="container-box rounded">
+          <Fade bottom duration={500}>
+            <hr />
+            <TimeLine />
+          </Fade>
+        </Container>
+        <Container className="container-box rounded">
+          <Slide duration={500}>
+            <hr />
+            <ContactForm />
+          </Slide>
+        </Container>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
