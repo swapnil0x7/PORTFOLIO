@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd627d28b57097cfdce20527dccfb581",
+    "revision": "2e046895ef11367a2847fa021437c187",
     "url": "/PORTFOLIO/index.html"
   },
   {
-    "revision": "06ba5e70a2241cfc3004",
-    "url": "/PORTFOLIO/static/css/main.ea959bbf.chunk.css"
+    "revision": "bf73e8b053bb0d361c27",
+    "url": "/PORTFOLIO/static/css/main.fa68e8d7.chunk.css"
   },
   {
-    "revision": "d24f40637abe86bc1c59",
-    "url": "/PORTFOLIO/static/js/2.4fca2991.chunk.js"
+    "revision": "8be1544e1ddee1b146f2",
+    "url": "/PORTFOLIO/static/js/2.a4b3d603.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/PORTFOLIO/static/js/2.4fca2991.chunk.js.LICENSE.txt"
+    "url": "/PORTFOLIO/static/js/2.a4b3d603.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "06ba5e70a2241cfc3004",
-    "url": "/PORTFOLIO/static/js/main.c2c3e4b8.chunk.js"
+    "revision": "bf73e8b053bb0d361c27",
+    "url": "/PORTFOLIO/static/js/main.567afebc.chunk.js"
   },
   {
     "revision": "6a4940f82ccb863e8082",
     "url": "/PORTFOLIO/static/js/runtime-main.0b1c833f.js"
-  },
-  {
-    "revision": "9730fefc26bb187c4f4bb29b95d82e7a",
-    "url": "/PORTFOLIO/static/media/Robofriends.9730fefc.webp"
   },
   {
     "revision": "3c4f7c5910afbd170654cbf40630e425",
@@ -38,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ffded2381d25dd906406d6e07f91dea5",
     "url": "/PORTFOLIO/static/media/bootstrap-4.ffded238.svg"
-  },
-  {
-    "revision": "db3c445b93fa7336d63f617a5f087c7e",
-    "url": "/PORTFOLIO/static/media/brain.db3c445b.webp"
   },
   {
     "revision": "4733db4c4bf3fef240e8369735ee8eb5",
@@ -58,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bcf22073c9f13bab1761b90bce9fec55",
     "url": "/PORTFOLIO/static/media/django.bcf22073.svg"
-  },
-  {
-    "revision": "c6bab64b183f96aa47077fd3db37afd0",
-    "url": "/PORTFOLIO/static/media/express.c6bab64b.svg"
   },
   {
     "revision": "16f24eac895190154a7e0989d94bfdac",
@@ -100,28 +88,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PORTFOLIO/static/media/javascript.2d2e31cc.svg"
   },
   {
-    "revision": "d13a07af1079666fb65d0eb17ae90253",
-    "url": "/PORTFOLIO/static/media/logow.d13a07af.webp"
+    "revision": "198312351e558905bd66e97ca0c7fbcd",
+    "url": "/PORTFOLIO/static/media/jupytern.19831235.png"
   },
   {
     "revision": "82291019f34ab54a677c456a84127cc3",
     "url": "/PORTFOLIO/static/media/material-ui-1.82291019.svg"
   },
   {
-    "revision": "a123152868245dee71c441124a98ac3e",
-    "url": "/PORTFOLIO/static/media/nodejs.a1231528.svg"
+    "revision": "18bc34e4a11572506aabc8f423295686",
+    "url": "/PORTFOLIO/static/media/opencv.18bc34e4.png"
   },
   {
-    "revision": "95dd3e00f0920b6bed086d4a30d5b027",
-    "url": "/PORTFOLIO/static/media/portfolioUsingDjango.95dd3e00.webp"
-  },
-  {
-    "revision": "d7c985e7cca077dc2d77f89a66573e35",
-    "url": "/PORTFOLIO/static/media/postgresql.d7c985e7.svg"
-  },
-  {
-    "revision": "4bef4c3e368bd761b543e597d90b79bc",
-    "url": "/PORTFOLIO/static/media/product_hunt_clone.4bef4c3e.webp"
+    "revision": "772ae5ba24b04ec77f834df3c2d4439b",
+    "url": "/PORTFOLIO/static/media/pycrypto.772ae5ba.png"
   },
   {
     "revision": "146716bdf1a351db5705ec1e6a25ed08",
@@ -142,10 +122,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4009eef3b3e291f296e71962c70895c5",
     "url": "/PORTFOLIO/static/media/react.4009eef3.svg"
-  },
-  {
-    "revision": "aa0a337603611296524a666b62a9ff23",
-    "url": "/PORTFOLIO/static/media/redux.aa0a3376.svg"
   },
   {
     "revision": "b446ca5a397c1ef6fb94cd02c4e94335",
