@@ -1,4 +1,4 @@
-### Hi, this is my portfolio, and this project was bootstrapped with React app. 
+### Hi, this is my portfolio, and this project was bootstrapped with React app. Hope you'll like it!
 
 ## Available Scripts
 
