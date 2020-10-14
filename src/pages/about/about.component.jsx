@@ -27,13 +27,13 @@ const About = () => {
                   <br />
                   Currently I'm a final year undergraduate at Dayananda Sagar college (DSCE) persuing my Bachelor of Engineering from Electronics & Instrumentation. 
                   <br />
-                  My Interest lies in the domains of Computer Science, Data Science and Web Development and have always aspired to work on projects in these areas. Along with that, I immensely love everything about football and could never stop admiring this game. 
+                  My Interest lies in the domains of Computer Science, Programming and Web Development and have always aspired to work on projects in these areas. Along with these, I immensely love everything about football and could never stop talking about this game. 
                   <br />
-                  I aspire to work in a reputable organisation which provides collaborative and intellectually stimulating experience where I can employ my technical & management skills to bring some positive change.
+                  I aspire to work in a reputable organisation which provides collaborative and intellectually stimulating experience where I can employ my technical & management skills to bring collaborative growth.
                   <br /> <br />
                   <Col className="d-flex justify-content-centre flex-wrap">
                     <div>
-                      <a href="https://drive.google.com/file/d/1t1UGxVkr_P0z82cjluNbfCF2Z3dMLRKd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                      <a href="#" target="_blank" rel="noopener noreferrer">
                         <Button className="m-2" variant="outline-success">
                           My Resume
                         </Button>

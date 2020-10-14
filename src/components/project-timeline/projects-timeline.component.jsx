@@ -1,29 +1,23 @@
 import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
-import L_GetGitHubInfo from "../../assets/img/projects/face3.gif";
+import face_picture from "../../assets/img/projects/face3.gif";
 import AES from "../../assets/img/projects/aes2.jpg";
 import SORT from "../../assets/img/projects/sort2.gif";
 import COVID from "../../assets/img/projects/covid2.jpg";
-import L_SmartBrain from "../../assets/img/projects/brain.webp";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
-import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
+import PYCRYPTO from "../../assets/img/skills/pycrypto.png";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
-import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
-import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import Image from "react-bootstrap/Image";
-import L_REDUX from "../../assets/img/skills/redux.svg";
+import ML from "../../assets/img/skills/ml.png";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
-import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
+import PY from "../../assets/img/skills/python.svg";
+import JP from "../../assets/img/skills/opencv.png";
+import J_NOTE from "../../assets/img/skills/jupytern.png";
+import VSCODE from "../../assets/img/skills/vscode.png";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 
 import "./projects-timeline.style.css";
@@ -37,7 +31,7 @@ const TimeLine = () => {
           <ImageEvent
             date="19/07/2020"
             className="text-center"
-            src={L_GetGitHubInfo}
+            src={face_picture}
             alt="face recognition"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -51,15 +45,13 @@ const TimeLine = () => {
                     >
                       PROJECT DETAILS
                     </Accordion.Toggle>
-
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio
-                        <hr />
+                        <strong>Description: </strong>  Have you noticed that Facebook has developed an ability to recognize your friends in your photographs? In the old days, Facebook used to make you to tag your friends in photos by clicking on them and typing in their name. Now as soon as you upload a photo, Facebook tags everyone for you like magic. This is Face Recognition for you!<hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search any Github profile</li>
-                          <li>Real-time API calls</li>
+                          <li>The algorithm recognize and labels more than just one person at the same time.</li>
+                          <li>Implemented K-Nearest Neighbors Algorithm for feature classification from scratch.</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -67,45 +59,34 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
+                                src={PY}
+                                alt="python_img"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              HTML5
+                              Python
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
+                                src={JP}
                                 alt="CSS 3"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              CSS3
+                              OpenCv
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACT}
+                                src={J_NOTE}
                                 alt="React"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_GIT}
-                                alt="Github API"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              GitHub API
+                              Jupyter Notebook
                             </span>
                           </li>
                         </ul>
@@ -146,12 +127,13 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio
-                        <hr />
+                        <strong>Description:</strong> developed a symmetric encryption tool to encrypt and decrypt
+messages as well as files in Python. I have used Pycrpto Library available in Python-the Cryptography
+tool to implement AES encryptor<hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search any Github profile</li>
-                          <li>Real-time API calls</li>
+                        <li>Encrypt and Decrypt Files as well as text messages.</li>
+                        <li>Used one of the most secure Encyption Cipher.</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -159,45 +141,34 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
+                                src={PY}
+                                alt="Python"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              HTML5
+                              Python
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
+                                src={PYCRYPTO}
+                                alt="Pycrpto"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              CSS3
+                              Pycrypto 
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACT}
-                                alt="React"
+                                src={J_NOTE}
+                                alt="Jupyter"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_GIT}
-                                alt="Github API"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              GitHub API
+                              Jupyter Notebook
                             </span>
                           </li>
                         </ul>
@@ -237,12 +208,13 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio
-                        <hr />
+                        <strong>Description:</strong> • Implemented the famous sorting algorithms and visualized their
+functioning using simple React library. The basic idea is to get 
+an insight about how these algorithms actually function.<hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search any Github profile</li>
-                          <li>Real-time API calls</li>
+                          <li>Demonstrates the functioning of Popular Sorting Algorithms.</li>
+                          <li>Implemented a unique algorithm to create the swapping animation.</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -261,34 +233,34 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
                                 src={L_REACT}
                                 alt="React"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              React
+                              React-Js
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
                                 src={L_GIT}
-                                alt="Github API"
+                                alt="Github web"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              GitHub API
+                              GitHub Hosting
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={VSCODE}
+                                alt="VS CODE"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Visual Studio
                             </span>
                           </li>
                         </ul>
@@ -328,12 +300,13 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio
-                        <hr />
+                        <strong>Description:</strong> Used Scikit-learn to implement Machine Learning algorithms -
+polynomialregression and SVM to track and predict the
+worldwide rate of increase of covid cases using a real time API<hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search any Github profile</li>
-                          <li>Real-time API calls</li>
+                          <li>Implemented Polynomial Regression for prediction.</li>
+                          <li>Real-time API calls for Datasets</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -341,45 +314,34 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
+                                src={ML}
+                                alt="ML"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              HTML5
+                              Machine Learning
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
+                                src={PY}
+                                alt="Python"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              CSS3
+                              Python
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACT}
-                                alt="React"
+                                src={J_NOTE}
+                                alt="jupyter"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_GIT}
-                                alt="Github API"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              GitHub API
+                              Jupyter Notebook
                             </span>
                           </li>
                         </ul>
